@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qlip_services *.css
+recursive-include qlip_services *.csv
+recursive-include qlip_services *.html
+recursive-include qlip_services *.ico
+recursive-include qlip_services *.js
+recursive-include qlip_services *.json
+recursive-include qlip_services *.md
+recursive-include qlip_services *.png
+recursive-include qlip_services *.py
+recursive-include qlip_services *.svg
+recursive-include qlip_services *.txt
+recursive-exclude qlip_services *.pyc
